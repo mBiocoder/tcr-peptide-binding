@@ -138,7 +138,7 @@ Peptide seq  ──► ESM-2 ──► [L_pep × 1280] ──► Graph ──►
 
 ## Notebooks Guide
 
-| Notebook | What you will learn |
+| Notebook | What is it about? |
 |---|---|
 | `01_data_exploration` | Class balance, sequence length distributions, amino acid composition, VDJdb metadata |
 | `02_embeddings_and_graphs` | How ESM-2 tokenises proteins, what embeddings capture, how k-NN edges are constructed |
@@ -182,8 +182,6 @@ All notebooks set a global random seed (`SEED = 42`). To reproduce the benchmark
 jupyter nbconvert --to notebook --execute notebooks/03_model_training.ipynb
 jupyter nbconvert --to notebook --execute notebooks/04_evaluation_and_results.ipynb
 ```
-
-Results are written to `results/figures/`.
 
 ---
 
