@@ -58,12 +58,6 @@ tcr-peptide-binding/
 │   ├── train.py         # Training loop, checkpointing, early stopping
 │   └── evaluate.py      # Metrics, plots, interpretability utilities
 │
-├── data/
-│   ├── raw/             # Place downloaded VDJdb / IEDB files here (git-ignored)
-│   └── processed/       # Cached embeddings, preprocessed CSVs (git-ignored)
-│
-├── results/
-│   └── figures/         # Saved plots (training curves, ROC, attention maps)
 │
 ├── tests/
 │   ├── test_data.py
@@ -71,12 +65,12 @@ tcr-peptide-binding/
 │   └── test_model.py
 │
 ├── docs/
-│   └── architecture.md  # Detailed architecture documentation
+│   └── architecture.md 
 │
 ├── requirements.txt
 ├── environment.yml
 ├── .gitignore
-└── README.md            # You are here
+└── README.md          
 ```
 
 ---
